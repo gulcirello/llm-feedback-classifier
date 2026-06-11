@@ -151,6 +151,25 @@ python3 main.py --show-config
 
 ## Design Goals
 
+```text
+CSV Input
+    │
+    ▼
+Pipeline
+    │
+    ├── Prompt Builder
+    │
+    ▼
+Local LLM (Ollama)
+    │
+    ▼
+Validator
+    │
+    ├── Classified Results
+    ├── Review Queue
+    └── Low Confidence Export
+```
+
 The project intentionally separates:
 
 - Prompt generation
@@ -173,4 +192,4 @@ This structure makes experimentation and prompt iteration easier while keeping t
 
 ## About
 
-Built as a learning project to explore practical LLM workflows, validation layers, local inference, and configurable AI pipelines.
+Built to automate employee feedback classification using local LLMs, configurable taxonomies, validation layers, and review workflows.
