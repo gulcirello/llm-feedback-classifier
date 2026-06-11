@@ -1,0 +1,17 @@
+index,topic,question,comment,department,team,primary_theme,secondary_theme,sentiment,confidence,needs_review
+0,Work Environment,What would most improve your day-to-day working experience?,Being able to work remotely more often would make a significant difference.,Engineering,Platform Security,Work Arrangement,,positive,1.0,False
+1,Work Environment,What would most improve your day-to-day working experience?,Meeting rooms are usually unavailable and make collaboration difficult.,Engineering,Platform Security,Tools & Resources,,negative,0.9,False
+2,Compensation,Which aspect of your employment experience needs the most improvement?,Compensation has not kept pace with market expectations.,Engineering,Backend Platform,Compensation & Benefits,,negative,1.0,False
+3,Compensation,Which aspect of your employment experience needs the most improvement?,I am satisfied with the current compensation package.,Engineering,Backend Platform,Compensation & Benefits,,positive,1.0,False
+4,Leadership,What would help your team perform at a higher level?,Recognition criteria should be more consistent and transparent.,Engineering,Security Operations,Recognition,,negative,0.85,False
+5,Leadership,What would help your team perform at a higher level?,My manager provides clear direction and support.,Engineering,Security Operations,Leadership,,positive,1.0,False
+6,Communication,Where do you see the biggest communication gap in the organization?,Strategic decisions are announced but the reasoning behind them is often unclear.,Engineering,Platform Security,Communication,,negative,1.0,False
+7,Team Collaboration,What is preventing stronger collaboration across teams?,Teams tend to optimize for local goals instead of shared outcomes.,Engineering,Security Operations,Team Culture,,negative,0.9,False
+8,Workload,What is the biggest challenge affecting your productivity?,Frequent context switching makes it difficult to focus on meaningful work.,Engineering,Platform Security,Workload & Capacity,,negative,1.0,False
+9,Career Development,What would help you grow professionally over the next year?,More opportunities to work on unfamiliar technologies and projects.,Engineering,Platform Security,Career & Growth,,positive,1.0,False
+10,Recognition,What would make employees feel more valued?,Feedback is collected regularly but rarely results in visible action.,Engineering,Platform Security,Recognition,,negative,0.95,False
+11,Process Improvement,Which organizational process creates the most friction?,Planning changes too frequently and creates unnecessary rework.,Engineering,Platform Security,Structural Process,,negative,0.85,False
+12,General Feedback,Is there anything else you would like to share?,Normal person.,Engineering,Platform Security,Other,,neutral,1.0,False
+13,General Feedback,Is there anything else you would like to share?,Ramadan Ramadan...,Engineering,Platform Security,Other,,neutral,1.0,False
+14,General Feedback,Is there anything else you would like to share?,Strive to be better every day.,Engineering,Platform Security,Other,,positive,0.85,False
+15,General Feedback,Anything else?,I would like more structured onboarding for new hires.,Engineering,Platform Security,Structural Process,,positive,0.85,False

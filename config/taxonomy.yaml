@@ -1,0 +1,37 @@
+themes:
+  - Career & Growth
+  - Communication
+  - Compensation & Benefits
+  - Leadership
+  - Other
+  - Recognition
+  - Structural Process
+  - Team Culture
+  - Tools & Resources
+  - Work Arrangement
+  - Workload & Capacity
+
+sentiments:
+  - positive
+  - neutral
+  - negative
+  - mixed
+
+validation:
+  compensation_keywords:
+    - salary
+    - compensation
+    - benefit
+    - benefits
+    - bonus
+    - reward
+    - rewards
+    - allowance
+    - allowances
+    - raise
+    - raises
+    - payroll
+    - pay
+    - market pay
+    - financial
+    - financial compensation
