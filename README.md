@@ -21,9 +21,6 @@ The project analyzes employee survey comments and automatically classifies them 
 
 ![Example terminal output](docs/example-output.png)
 
-![Example terminal output](docs/image.png)
-
-
 The classifier processes employee survey comments, assigns themes and sentiment labels, and highlights comments that may require manual review.
 
 ## Example Classification
