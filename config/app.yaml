@@ -1,0 +1,32 @@
+model: "qwen2.5"
+ollama_url: "http://localhost:11434/api/generate"
+prompt_version: "v1"
+
+paths:
+  input: "data/sample/sample_survey.csv"
+  output: "data/output/pulse_output.csv"
+  cache: "data/cache/cache.json"
+  other_review: "data/output/other_review.csv"
+  low_confidence_review: "data/output/low_confidence_review.csv"
+
+columns:
+  topic: "Survey Topics"
+  question: "Question"
+  comment: "Comment"
+  department: "Department"
+  team: "Team"
+
+
+thresholds:
+  confidence_review: 0.75
+  low_confidence_export: 0.85
+
+cache:
+  write_enabled: true
+  read_enabled: true
+
+runtime:
+  limit:
+  reprocess: all
+  debug: none
+  checkpoint_interval: 10
